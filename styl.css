@@ -1,0 +1,260 @@
+.jumbotron {
+	/*background-color: #6287E6;*/ /* niebieski */
+	background-image: url("bg-9-full.jpg");
+	color: #ffffff;
+	padding: 50px 50px;
+}
+
+.zadawanie {
+	background-image: url("bg-7-full.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.zadawanie-tab {
+	background-image: url("Elegant_Background-3.jpg");
+	color:black;
+	font-weight: bold;
+	
+	
+}
+.containter-fluid {
+	padding: 150px;
+	
+}
+
+br {
+	padding: 20px 20px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #FF9900;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand .dropdown-toggle {
+    color: #fff !important;
+	background-color: #FF9900 !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    color: #fff !important;
+	background-color: #FF9900 !important;
+	
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a .dropdown-toggle{
+    color: #f4511e !important;
+    background-color: #fff !important;
+	/*width:200px;*/
+	}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+.kontakt-list {
+	font-size: 16px
+}
+
+.kontakt-desc {
+	font-size: 17px
+}
+
+.tytul-main {
+	   
+	font-size: 32px;
+	line-height: 1.2;
+    letter-spacing: 1px;
+    border-radius: 0;
+	padding-left:16px;
+	padding-top: -10px;
+	font-family: "Arial Black";
+	
+}
+.note-main {
+	font-size: 18px;
+	font-family: "Arial";
+	border-width: 0px; 
+	padding-top:1px;
+	text-align:justify
+}
+
+.note-adress{
+	font-size: 16px;
+	font-family: "Arial";
+	border-width: 0px; 
+	padding-top:1px;
+	text-align:justify
+}
+
+.note-obraz {
+	padding: 10px 10px 10px 10px;
+}
+
+.panel-header {
+	font-size:22px;
+	font-family: "Arial";
+	padding-left: 20px;
+	
+}
+th, td {
+	text-align:center;
+	font-size: 18px;
+	font-family: "Arial";
+	border-bottom: 1px solid;
+	
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+	background-color: #f5f5f5
+}
+body {
+	position: relative; 
+	padding-bottom: 40px;
+}
+#LodzPopover {display: none; float: right;}
+#WarszawaPopover {display: none; float: right;}
+#PoznanPopover {display: none; float: right;}
+#WroclawPopover {display: none; float: right;}
+#KrakowPopover {display: none; float: right;}
+#LogowaniePopover {display: none; float: right;}
+#WylogowaniePopover {display: none; float: right;}
+.popover{
+	width:auto; 
+    max-width: 100%;  
+}
+
+.popover-logowanie{
+	
+	width:300px;
+}
+
+.form-logowanie {
+	width: 190px;
+	padding-left:5px;
+	text-align:center;
+}
+
+.map {
+	height:200px;
+	width:400px;
+	padding-left:150px;
+}
+
+
+.stopka {
+	font-size: 8px !important;
+    line-height: 1.2!important;
+    letter-spacing: 2px;
+	text-align:center;
+	padding-top: 150px;
+	color: #f4511e;
+	
+}
+
+.btn-vertical-slider{ 
+	margin-left:150px; 
+	cursor:pointer;
+	}
+	
+a {  cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+ .carousel.vertical .active {
+  top: 0;
+}
+
+ .carousel.vertical .next {
+  top: 100%;
+}
+
+ .carousel.vertical .prev {
+  top: -100%;
+}
+
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+ .carousel.vertical .active.left {
+  top: -100%;
+}
+
+ .carousel.vertical .active.right {
+  top: 100%;
+}
+
+ .carousel.vertical .item {
+    left: 0;
+}
+
+.carousel-img {
+	display:block; 
+	max-height:250px; 
+	max-width:350px;
+}
+.modal-dialog {
+	 padding-top:10%;
+}
+
+
+.modal-content {
+  /* tu przycisk */
+  background-color: #FFFFCC;
+}
+.modal-body {
+  background-color: #FFFFCC;
+  color:black;
+  font-size: 15px;
+  font-family: "Arial";
+ 
+  text-align:center;
+}
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}
+
+.anchor-akt{
+  display: block;
+  height: 100px; /*same height as header*/
+  margin-top: -100px; /*same height as header*/
+  visibility: hidden;
+}
+
+
+/* tylko testy */
+
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.buttony-kursy {
+	
+	width: 150px;
+}
+
